@@ -1,0 +1,31 @@
+schema_version = "1.0.0"
+
+name = "Tiny Tools"
+id = "tiny_tools"
+version = "1.5.1"
+maintainer = "Lis Carter"
+tagline = "Rigging and animation toolkit: backups, poses, weight mirroring"
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+website = "https://lis-carter.site/tiny-tools/"
+type = "add-on"
+
+tags = ["Animation", "Rigging"]
+
+copyright = ["2025 Matvieiev Dmytro"]
+
+[permissions]
+files = "Import/export JSON from/to disk"
+
+[build]
+paths_exclude_pattern = [
+    "__pycache__/",
+    ".*",
+    "/*.zip",
+    "/tests/",
+    "/dev/",
+    "/_structure.json",
+    "/docs/",
+    "/README.md",
+    "/README.ru.md",
+]

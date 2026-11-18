@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+*.zip
+*.local
+# Локальное, в репозиторий не идёт: только сам аддон
+/docs/
+/tests/
+/dev/
+/_structure.json
